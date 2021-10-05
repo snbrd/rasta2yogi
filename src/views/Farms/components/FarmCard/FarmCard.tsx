@@ -141,7 +141,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
   const displayBalance = rawEarningsBalance.toLocaleString()
 
   return (
-    <div className="shadow-md p-5 pt-8 pb-8">
+    <div className="shadow-md p-5 pt-8 pb-8 border-1 border-green-rasta mt-8">
       <div className="row flex flex-col md:flex-row gap-5 mb-12">
         <CardHeading
           lpLabel={lpLabel}
