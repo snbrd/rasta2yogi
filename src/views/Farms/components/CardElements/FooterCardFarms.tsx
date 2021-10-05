@@ -36,7 +36,11 @@ export default function FooterCardFarms({ farmStake, farmValue, farmBscLink, add
         <a href={farmBscLink} rel="noreferrer" target="_blank" className="text-red-rasta">
           View on BscScan
         </a>
-        <div className="flex flex-row space-x-4 items-center text-red cursor-pointer" style={{color: "red"}} onClick={() => setShow(!show)}>
+        <div
+          className="flex flex-row space-x-4 items-center text-red cursor-pointer"
+          style={{ color: 'red' }}
+          onClick={() => setShow(!show)}
+        >
           <span className="font-bold text-md">DETAIL</span>
           {show && <FaIcons.FaChevronCircleUp />}
           {!show && <FaIcons.FaChevronCircleDown />}

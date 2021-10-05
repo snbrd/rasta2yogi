@@ -29,7 +29,7 @@ export default function HeroSection({ images, title, desc, btn }: Props) {
           <button className="" type="button">
             {btn.label}
           </button>
-          </a>
+        </a>
       </div>
     </div>
   )

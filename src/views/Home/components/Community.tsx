@@ -21,12 +21,18 @@ export default function Community() {
               Powered by the People!
             </p>
             <div className="cta flex flex-col md:flex-row mt-8 space-y-3 md:space-y-0 space-x-0 md:space-x-8">
-              <a href="https://docs.rasta.finance" target="_blank" rel="noreferrer"
+              <a
+                href="https://docs.rasta.finance"
+                target="_blank"
+                rel="noreferrer"
                 className="bg-gradient-to-r font-bold text-white w-full md:w-1/3 from-yellow-rasta to-green-rasta_cta text-center py-3  rounded-xl"
               >
                 <button type="button">Whitepaper</button>
               </a>
-              <a href="https://t.me/rastafinance" target="_blank" rel="noreferrer"
+              <a
+                href="https://t.me/rastafinance"
+                target="_blank"
+                rel="noreferrer"
                 className="border-2 font-bold border-green-rasta_cta text-green-rasta_cta py-3 rounded-xl w-full md:w-1/3 text-center"
               >
                 <button type="button">Join The Community</button>

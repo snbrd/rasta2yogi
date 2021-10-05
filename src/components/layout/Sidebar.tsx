@@ -76,7 +76,7 @@ export default function Sidebar() {
       ],
     },
     {
-      label: "LaunchPad - Coming Soon",
+      label: 'LaunchPad - Coming Soon',
       path: '#',
       icon: <AiIcons.AiFillStar className="inline-block" />,
       parent: false,
@@ -89,7 +89,7 @@ export default function Sidebar() {
       parent: true,
       child: [
         {
-          path: "https://t.me/rastafinance",
+          path: 'https://t.me/rastafinance',
           label: 'Telegram',
         },
         {

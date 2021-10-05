@@ -38,27 +38,27 @@ export default function Contact() {
     detail: [
       {
         icon: <FaIcons.FaRegEnvelope />,
-        text:'devs@rasta.finance',
-        link:'mailto:devs@rasta.finance'
+        text: 'devs@rasta.finance',
+        link: 'mailto:devs@rasta.finance',
       },
     ],
 
     socialMedia: [
       {
         icon: <FaIcons.FaTwitter />,
-        link:'https://www.twitter.com/RastaFinance'
+        link: 'https://www.twitter.com/RastaFinance',
       },
       {
         icon: <FaIcons.FaTelegramPlane />,
-        link:'https://www.t.me/rastafinance'
+        link: 'https://www.t.me/rastafinance',
       },
       {
         icon: <Io5Icons.IoLogoTiktok />,
-        link:'https://www.tiktok.com/@rasta.finance'
+        link: 'https://www.tiktok.com/@rasta.finance',
       },
       {
         icon: <FaIcons.FaMediumM />,
-        link:'https:///rastafinance.medium.com'
+        link: 'https:///rastafinance.medium.com',
       },
     ],
   }

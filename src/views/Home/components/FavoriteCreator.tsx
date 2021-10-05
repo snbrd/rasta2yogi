@@ -36,7 +36,9 @@ export default function FavoriteCreator() {
                   rel="noreferrer"
                   className="bg-gradient-to-r font-bold text-white mx-auto from-yellow-rasta to-green-rasta_cta text-center py-3 px-8 rounded-xl"
                 >
-                  <button className="uppercase" type="button">LaunchPad Coming Soon</button>
+                  <button className="uppercase" type="button">
+                    LaunchPad Coming Soon
+                  </button>
                 </a>
               </Router>
             </div>
@@ -44,7 +46,7 @@ export default function FavoriteCreator() {
         </div>
       </div>
       <div className="bg-gradient-to-r text-white from-red-rasta to-yellow-rasta py-16">
-        <div className="flex flex-col md:flex-row w-full px-4  space-y-6  md:space-y-0 md:px-0 md:w-10/12 mx-autoitems-center">
+        <div className="flex flex-col md:flex-row w-full px-4  space-y-6  md:space-y-0 md:px-0 md:w-10/12 mx-auto items-center">
           <div className="text w-full md:w-8/12 text-center md:text-left">
             <span className="text-2xl font-bold block">REQUEST A LAUNCH:</span>
             <span className="block">

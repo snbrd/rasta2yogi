@@ -62,37 +62,42 @@ export default function About() {
   ]
   const letsConnect = {
     heading: 'Rasta.Finance',
-    subHeading: 'Let\'s connect and get to know each other',
+    subHeading: "Let's connect and get to know each other",
     listContent: ['Decentralized', 'Community Driven', 'For The People.', 'By The People.'],
     textContent: `Best way to get in touch with us is to join the Telegram community, our admins are from all over the world and we are ready to answer any questions you may have.`,
     link: {
       btn: {
-        joinNowLink : 'https://t.me/rastafinance',
-        farmRastaLink : '/',
+        joinNowLink: 'https://t.me/rastafinance',
+        farmRastaLink: '/',
       },
       social: [
         {
           icon: <FaIcons.FaTwitter />,
-          link:'https://www.twitter.com/RastaFinance'
+          link: 'https://www.twitter.com/RastaFinance',
         },
         {
           icon: <FaIcons.FaTelegramPlane />,
-          link:'https://www.t.me/rastafinance'
+          link: 'https://www.t.me/rastafinance',
         },
         {
           icon: <Io5Icons.IoLogoTiktok />,
-          link:'https://www.tiktok.com/@rasta.finance'
+          link: 'https://www.tiktok.com/@rasta.finance',
         },
         {
           icon: <FaIcons.FaMediumM />,
-          link:'https:///rastafinance.medium.com'
+          link: 'https:///rastafinance.medium.com',
         },
       ],
     },
   }
   return (
     <div>
-      <Header images={AboutHeader} title="About Us" desc="We are a big team with an even bigger heart." btn={{link: "https://docs.rasta.finance", label: "Read The Docs"}} />
+      <Header
+        images={AboutHeader}
+        title="About Us"
+        desc="We are a big team with an even bigger heart."
+        btn={{ link: 'https://docs.rasta.finance', label: 'Read The Docs' }}
+      />
       <section className=" w-full flex bg-white md:mx-auto items-center px-8 md:px-0 md:flex-row  pb-8">
         <Card items={cardSection} />
       </section>

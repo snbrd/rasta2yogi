@@ -24,10 +24,16 @@ export default function HeroSection() {
               blockchain technology. Seize the power of your own money, join the revolution.
             </p>
             <div className="cta flex-row mt-8 space-x-8 hidden md:flex">
-              <Link to="/farms" className="bg-gradient-to-r font-bold w-1/3 from-yellow-rasta to-green-rasta_cta text-center py-3 rounded-xl">
+              <Link
+                to="/farms"
+                className="bg-gradient-to-r font-bold w-1/3 from-yellow-rasta to-green-rasta_cta text-center py-3 rounded-xl"
+              >
                 <button type="button">Farm Rasta Now</button>
               </Link>
-              <a href="https://exchange.rasta.finance" className="border-2 font-bold border-yellow-rasta py-3 rounded-xl w-1/3 text-center">
+              <a
+                href="https://exchange.rasta.finance"
+                className="border-2 font-bold border-yellow-rasta py-3 rounded-xl w-1/3 text-center"
+              >
                 <button type="button">Buy Rasta</button>
               </a>
             </div>

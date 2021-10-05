@@ -18,32 +18,32 @@ export default function Footer() {
     {
       title: 'Farms',
       item: [
-        { label: "Mr. Rasta", path: "/farms" },
-        { label: "Mrs. Rasta", path: "https://m.rasta.finance/farms" },
+        { label: 'Mr. Rasta', path: '/farms' },
+        { label: 'Mrs. Rasta', path: 'https://m.rasta.finance/farms' },
       ],
     },
   ]
   const socialMedia = [
-    { name: "Twitter", icon: <FaIcons.FaTwitter />, link: "https://www.twitter.com/RastaFinance" },
-    { name: "Tik Tok", icon: <Io5Icons.IoLogoTiktok />, link: "https://www.tiktok.com/@rasta.finance" },
-    { name: "Instagram", icon: <FaIcons.FaInstagram />, link: "https://www.instagram.com/rastafinance" },
-    { name: "Telegram", icon: <FaIcons.FaTelegramPlane />, link: "https://www.t.me/rastafinance" },
-    { name: "Reddit", icon: <FaIcons.FaReddit />, link: "https://www.reddit.com/r/rastafinance" },
-    { name: "Medium", icon: <FaIcons.FaMediumM />, link: "https:///rastafinance.medium.com" },
-    { name: "Youtube", icon: <FaIcons.FaYoutube />, link: "https://www.twitch.tv/rastafinance" },
+    { name: 'Twitter', icon: <FaIcons.FaTwitter />, link: 'https://www.twitter.com/RastaFinance' },
+    { name: 'Tik Tok', icon: <Io5Icons.IoLogoTiktok />, link: 'https://www.tiktok.com/@rasta.finance' },
+    { name: 'Instagram', icon: <FaIcons.FaInstagram />, link: 'https://www.instagram.com/rastafinance' },
+    { name: 'Telegram', icon: <FaIcons.FaTelegramPlane />, link: 'https://www.t.me/rastafinance' },
+    { name: 'Reddit', icon: <FaIcons.FaReddit />, link: 'https://www.reddit.com/r/rastafinance' },
+    { name: 'Medium', icon: <FaIcons.FaMediumM />, link: 'https:///rastafinance.medium.com' },
+    { name: 'Youtube', icon: <FaIcons.FaYoutube />, link: 'https://www.twitch.tv/rastafinance' },
   ]
   function ShowLinks(props) {
     const items = props.items
     return items.map((item, index) => {
       return (
         <li key={index}>
-          {item.path.includes("http") ?
+          {item.path.includes('http') ? (
             <a href={item.path}>{item.label}</a>
-            :
+          ) : (
             <Link to={item.path}>
               <span className="">{item.label}</span>
             </Link>
-          }
+          )}
         </li>
       )
     })

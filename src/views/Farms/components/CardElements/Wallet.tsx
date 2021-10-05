@@ -17,9 +17,9 @@ export default function Wallet() {
   const connectWallet = (what) => {
     if (what === 'walletconnect') connect('walletconnect')
     else connect('injected')
-  };
+  }
   useEffect(() => {
-    if (account) setShowModal(false);
+    if (account) setShowModal(false)
   }, [account])
   const wallet = [
     {
