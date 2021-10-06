@@ -40,7 +40,7 @@ export default function Form({ fields, contactInfo, desc }: Props) {
         <div className="contact-info bg-gray-rasta flex-grow-1 py-16 px-12 flex flex-col">
           <h2 className="text-2xl font-bold">{contactInfo.title}</h2>
 
-        <p className="mt-8 leading-loose">{desc}</p>
+          <p className="mt-8 leading-loose">{desc}</p>
           <div className="detail flex flex-col space-y-16 mt-16 md:mt-24">
             {contactInfo.detail.map((item, index) => {
               return (

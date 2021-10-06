@@ -43,3 +43,7 @@
 header .lazy-load-image-background.blur.lazy-load-image-loaded {
     display: block !important;
 }
+
+.left-remove{
+    left:-150%;
+}

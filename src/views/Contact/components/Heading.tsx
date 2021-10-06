@@ -1,7 +1,7 @@
 import React from 'react'
 import LionCoin from '../../../assets/coin-small.jpg'
 
-export default function Heading({ title }: { title: string; }) {
+export default function Heading({ title }: { title: string }) {
   return (
     <div
       className="w-full bg-blend-overlay bg-black bg-opacity-25 pb-32"

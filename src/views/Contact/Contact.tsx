@@ -64,7 +64,7 @@ export default function Contact() {
   return (
     <div>
       <Heading title={heading.title} />
-      <Forms fields={fields} contactInfo={contactInfo} desc={heading.desc}  />
+      <Forms fields={fields} contactInfo={contactInfo} desc={heading.desc} />
     </div>
   )
 }

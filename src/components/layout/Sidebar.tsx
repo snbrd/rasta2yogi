@@ -130,7 +130,7 @@ export default function Sidebar() {
       </span>
       <nav
         className={`h-full w-auto top-0 py-6 px-8 bg-gray-rasta z-50 fixed transition duration-1000 ${
-          sidebar ? 'left-0' : '-left-full'
+          sidebar ? 'left-0' : 'left-remove'
         }`}
       >
         <span className="menu-bars absolute right-4 text-3xl text-white cursor-pointer">
